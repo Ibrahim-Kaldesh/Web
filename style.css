@@ -1,0 +1,50 @@
+.parent {
+  height: 270px;
+  background-color: rgb(239, 239, 239);
+  width: 1000px;
+  text-align: center;
+}
+
+.div-one .child-one {
+  margin-top: 15px;
+  padding: 15px;
+  width: calc(100% - 60px);
+  float: left;
+}
+
+.child-one,
+.child-two,
+.child-three,
+.child-four {
+  background-color: gainsboro;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.div-two .child-one,
+.div-two .child-two,
+.div-two .child-three {
+  float: left;
+  padding: 15px;
+  width: calc((100% - 150px) / 3);
+}
+
+.div-three .child-one,
+.div-three .child-two {
+  float: left;
+  padding: 15px;
+  width: calc((100% - 105px) / 2);
+}
+
+.div-four .child-one,
+.div-four .child-two,
+.div-four .child-three,
+.div-four .child-four {
+  float: left;
+  padding: 15px;
+  width: calc((100% - 195px) / 4);
+}
+
+.clear {
+  clear: both;
+}
